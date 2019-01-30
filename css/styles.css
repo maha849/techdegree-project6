@@ -95,6 +95,7 @@ button {
 .show {
   color: #000;
   background-color: #76CE82;
+  /* transition: var(--transition); */
 }
 
 /* Keyboard */
@@ -160,4 +161,8 @@ button {
 
 .lose a {
   color: var(--color-lose);
+}
+
+.animated{
+  animation-duration: 0.5s;
 }
