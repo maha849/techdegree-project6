@@ -83,7 +83,7 @@ function checkWin(){
 // event listeners
 
 startGame.addEventListener('click', () => {
-    if(overlay.style.display !== 'none'){
+        overlay.classList.remove('lose', 'win');
         overlay.style.display = 'none';
         new_phraseArray();
         missed = 0;
@@ -94,7 +94,7 @@ startGame.addEventListener('click', () => {
           buttons[i].disabled = false;
           buttons[i].style.backgroundColor = '#E5E5E5';
         }
-      }
+
  });
 
 
